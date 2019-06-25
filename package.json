@@ -1,15 +1,21 @@
 {
 	"version": "1.0.0",
+	"description": "",
+	"repository": "",
+	"license": "",
+	"scripts": {
+		"start": "node ./lib/index.js"
+	},
 	"dependencies": {
 		"bootstrap": "^4.3.1",
-		"fs": "0.0.1-security",
-		"jquery": "^3.4.1",
-		"jsdom": "^15.1.1"
+		"jquery": "^3.4.1"
 	},
 	"devDependencies": {
 		"gulp": "^4.0.2",
 		"gulp-babel": "^8.0.0",
 		"gulp-sass": "^4.0.2",
-		"sass": "^1.21.0"
+		"sass": "^1.21.0",
+		"fs": "0.0.1-security",
+		"html-minifier": "^4.0.0"
 	}
 }
